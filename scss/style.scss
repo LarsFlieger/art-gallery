@@ -1,11 +1,35 @@
 $primary: #73ff00;
 $danger: #ff4136;
-
+$secondary: #ff11ff;
+$success: #ff11ff;
+$info: #ff11ff;
+$warning: #ff11ff;
+$light: #ff11ff;
+$dark: #ff11ff;
 
 $theme-colors: (
-  "primary": $primary,
-  "danger": $danger
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
 );
 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1660px
+);
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
