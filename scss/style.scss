@@ -1,3 +1,4 @@
+// Boostrap modifications
 $primary: #73ff00;
 $danger: #ff4136;
 $secondary: #ff11ff;
@@ -26,10 +27,20 @@ $container-max-widths: (
   xxl: 1660px
 );
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+$font-family-sans-serif:
+  'Inter',
+  // Sans serif fallback
+  sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+
+// Own components
 .bg-image {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
 @import "../node_modules/bootstrap/scss/bootstrap";
