@@ -1,24 +1,12 @@
-// Boostrap modifications
-$primary: #73ff00;
-$danger: #ff4136;
-$secondary: #ff11ff;
-$success: #ff11ff;
-$info: #ff11ff;
-$warning: #ff11ff;
-$light: #ff11ff;
-$dark: #ff11ff;
-
+/**** Boostrap modifications ****/
+// Colors
 $theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
+  "primary":    #5E6680,
+  "secondary":  #F1F1EF
 );
 
+
+// Container
 $container-max-widths: (
   sm: 540px,
   md: 720px,
@@ -27,17 +15,31 @@ $container-max-widths: (
   xxl: 1660px
 );
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-$font-family-sans-serif:
-  'Inter',
-  // Sans serif fallback
-  sans-serif,
-  // Emoji fonts
-  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+$font-family-sans-serif: 'Inter', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-weight-bolder: 600;
 
 
-// Own components
+// Button
+$btn-padding-y: 0.75rem;
+$btn-padding-x: 2.25rem;
+
+$btn-border-width: 0;
+$btn-focus-width: 0;
+$btn-focus-box-shadow: none;
+
+$btn-link-color: #FFF;
+$btn-link-hover-color: #F1F1EF;
+
+$btn-font-size: 14px;
+
+
+
+
+
+/**** Own components ****/
 .bg-image {
   background-repeat: no-repeat;
   background-size: cover;
